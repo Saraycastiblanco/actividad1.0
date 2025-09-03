@@ -17,3 +17,9 @@ elif operador == "multiplicacion":
 
 elif operador == "division":
     resultado = num1 / num2
+
+elif operador == 'raíz':
+    resultado = f"Raíz de {num1}: {math.sqrt(num1)}\nRaíz de {num2}: {math.sqrt(num2)}"
+elif operador == 'porcentaje':
+    resultado = (num1 * num2) / 100
+print("El resultado es", resultado)
