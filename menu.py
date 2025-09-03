@@ -11,3 +11,9 @@ if operador == "suma":
 
 elif operador == "resta":
     resultado = num1 - num2
+
+elif operador == "multiplicacion":
+    resultado = num1 * num2
+
+elif operador == "division":
+    resultado = num1 / num2
